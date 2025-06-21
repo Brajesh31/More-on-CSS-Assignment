@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment- More on CSS</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: #4eb8ff;
+            display: flex;
+            align-items: center;
+            height: 80px;
+            width: 100%;
+        }
+        div {
+            margin-left: 50px;
+            padding: 10px 15px;
+            
+        }
+        div:first-child {
+            border-style: solid hidden;
+            
+        }
+        div:nth-child(2) {
+            border: 2px dotted #02396d;
+            
+        }
+        div:nth-child(3) {
+            border: 2px dashed #00522c;
+        }
+        div:nth-child(4) {
+            border-style: hidden double dashed;
+        }
+        div:last-child {
+            border-style: dotted solid;
+        }
+        a {
+            color: #fff;
+        }
+        a:hover {
+            color: #ffa909;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="#">Home</a></div>
+            <div><a href="#">About</a></div>
+            <div><a href="#">Contact Us</a></div>
+            <div><a href="#">Service</a></div>
+            <div><a href="#">Blog</a></div>
+        </nav>
+    </header>
+</body>
+</html>
